@@ -3,3 +3,13 @@
 	email = taku.3001@icloud.com
 [init]
 	defaultBranch = main
+[alias]
+	st = status
+	ad = add
+	c = commit
+	co = checkout
+	com = checkout main
+	br = branch
+	df = diff
+	poh = push origin HEAD
+
