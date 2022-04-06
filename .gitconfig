@@ -13,3 +13,5 @@
 	df = diff
 	poh = push origin HEAD
 
+[credential]
+	helper = osxkeychain
