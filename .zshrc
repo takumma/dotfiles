@@ -2,7 +2,7 @@
 export PATH=/opt/homebrew/bin:$PATH
 
 # omit directory name
-export PS1="%n %~ $ "
+export PS1="%~ $ "
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
