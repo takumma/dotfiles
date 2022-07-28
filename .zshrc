@@ -1,6 +1,9 @@
 # homebrew
 export PATH=/opt/homebrew/bin:$PATH
 
+# flutter
+export PATH=~/development/flutter/bin:$PATH
+
 # omit directory name
 export PS1="%~ $ "
 

@@ -15,3 +15,5 @@
 
 [credential]
 	helper = osxkeychain
+[core]
+	quotepath = false
