@@ -20,3 +20,6 @@ if [ -f '/Users/takumma/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/takumma
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/takumma/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/takumma/google-cloud-sdk/completion.zsh.inc'; fi
+
+# alias
+alias g='git'
