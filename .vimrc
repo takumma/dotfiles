@@ -1,6 +1,9 @@
+" Plugins
 call plug#begin('~/.vim/plugged')
   Plug 'rust-lang/rust.vim'
   Plug 'joshdick/onedark.vim'
+  Plug 'prabirshrestha/vim-lsp'
+  Plug 'mattn/vim-lsp-settings'
 call plug#end()
 
 syntax on
