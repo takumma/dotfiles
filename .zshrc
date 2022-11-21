@@ -1,5 +1,3 @@
-zmodload zsh/zprof && zprof
-
 # homebrew
 export PATH=/opt/homebrew/bin:$PATH
 
@@ -55,8 +53,4 @@ export NVM_SYMLINK_CURRENT="true" # nvm use should make a symlink
 export NVM_DIR="$HOME/.nvm"
 export NVM_LAZY_LOAD=true
 zinit light lukechilds/zsh-nvm
-
-if (which zprof > /dev/null 2>&1) ;then
-  zprof
-fi
 
