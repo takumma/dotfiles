@@ -52,5 +52,6 @@ zinit light-mode for \
 export NVM_SYMLINK_CURRENT="true" # nvm use should make a symlink
 export NVM_DIR="$HOME/.nvm"
 export NVM_LAZY_LOAD=true
+export NVM_LAZY_LOAD_EXTRA_COMMANDS=('vi' 'vim' 'nvim' 'code')
 zinit light lukechilds/zsh-nvm
 

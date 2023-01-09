@@ -12,6 +12,7 @@
 	br = branch
 	df = diff
 	poh = push origin HEAD
+	alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
 
 [credential]
 	helper = osxkeychain
