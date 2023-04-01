@@ -55,3 +55,7 @@ export NVM_LAZY_LOAD=true
 export NVM_LAZY_LOAD_EXTRA_COMMANDS=('vi' 'vim' 'nvim' 'code')
 zinit light lukechilds/zsh-nvm
 
+# Load anyenv automatically by adding
+eval "$(anyenv init -)"
+
+
